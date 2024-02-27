@@ -1,0 +1,47 @@
+/*************************
+        HEADER
+*************************/
+
+header {
+    background-color: black;
+    height: 70px;
+}
+
+/*************************
+        ASIDE
+*************************/
+
+aside {
+    background-image: url(./img/sidebar-bg.png);
+    background-color: #051e34;
+    width: 70px;
+    flex-shrink: 0;
+}
+
+/*************************
+        MAIN
+*************************/
+
+main {
+    width: 100%;
+}
+
+.ms-container {
+    height: calc(100vh - 70px);
+}
+
+.title {
+    min-height: 250px;
+    background-color: #1b72e8;
+}
+
+/*************************
+        RESPONSIVE
+*************************/
+
+@media screen and (min-width: 992px) {
+    aside {
+        width: 150px;
+    }
+}
+
