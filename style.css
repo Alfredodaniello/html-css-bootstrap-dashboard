@@ -6,10 +6,6 @@
     height: auto
 }
 
-body {
-    overflow: hidden;
-}
-
 /*************************
         HEADER
 *************************/
@@ -74,12 +70,51 @@ main {
     width: 20%;
 }
 
-.action {
-    width: 20%;
+.date {
+    width: 27%;
 }
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.fa-pen {
+    font-size: 15px;
+}
+
+.fa-trash {
+    font-size: 15px;
+}
+.pen {
+    padding: 2px 6px;
+    border: 1px solid black;
+}
+
 /*************************
         RESPONSIVE
 *************************/
+@media screen and (max-width:768px) {
+    .table-elements {
+        display:none;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .status {
+        width: 10%;
+    }
+    
+    .date {
+        width: 27%;
+    }
+}
 
 @media screen and (min-width: 992px) {
     aside {
@@ -88,5 +123,29 @@ main {
     .logo {
         padding-top: 22px;
         width: 150px;
+    }
+    .title {
+        min-height: 127px;
+    }
+    .home {
+        margin-left: 3px;
+    }
+    .fa-chart-simple {
+        margin-right: 5px;
+    } 
+
+    .fa-signal  {
+        margin-left: 10px;
+    }
+
+    .fa-gear {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .todo {
+        margin-top: 1rem;
     }
 }
