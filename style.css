@@ -1,10 +1,27 @@
 /*************************
+        GENERAL
+*************************/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*************************
         HEADER
 *************************/
 
 header {
-    background-color: black;
+    background-color: #ffffff;
     height: 70px;
+}
+
+.search-bar {
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.logo {
+    width: 94px;
 }
 
 /*************************
@@ -43,5 +60,11 @@ main {
     aside {
         width: 150px;
     }
-}
+    .logo {margin-top: 20px;
 
+        width: 170px;
+    }
+    header i {
+        margin-top: 20px;
+    }
+}
