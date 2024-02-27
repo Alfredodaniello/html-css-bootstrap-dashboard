@@ -6,6 +6,10 @@
     height: auto
 }
 
+body {
+    overflow: hidden;
+}
+
 /*************************
         HEADER
 *************************/
@@ -59,10 +63,20 @@ main {
 }
 
 .title {
-    min-height: 250px;
     background-color: #1b72e8;
 }
 
+.text-bg-primary {
+    background-color: #165bba !important;
+}
+
+.status {
+    width: 20%;
+}
+
+.action {
+    width: 20%;
+}
 /*************************
         RESPONSIVE
 *************************/
