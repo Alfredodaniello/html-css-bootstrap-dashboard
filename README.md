@@ -1,1 +1,1 @@
-> Previw at: https://alfredodaniello.github.io/html-css-bootstrap-dashboard/
+> Preview at: https://alfredodaniello.github.io/html-css-bootstrap-dashboard/
