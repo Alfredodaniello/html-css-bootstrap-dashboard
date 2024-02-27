@@ -1,9 +1,9 @@
 /*************************
         GENERAL
 *************************/
-img {
+ header img {
     width: 100%;
-    height: auto;
+    height: auto
 }
 
 /*************************
@@ -21,7 +21,13 @@ header {
 }
 
 .logo {
-    width: 94px;
+    padding-top: 12px;
+    width: 70px;
+}
+
+header i {
+    padding-right: 8px;
+    padding-top: 28.5px;
 }
 
 /*************************
@@ -35,11 +41,16 @@ aside {
     flex-shrink: 0;
 }
 
+.wifi {
+    flex-grow: 1;
+}
+
 /*************************
         MAIN
 *************************/
 
 main {
+    overflow: auto;
     width: 100%;
 }
 
@@ -60,11 +71,8 @@ main {
     aside {
         width: 150px;
     }
-    .logo {margin-top: 20px;
-
-        width: 170px;
-    }
-    header i {
-        margin-top: 20px;
+    .logo {
+        padding-top: 22px;
+        width: 150px;
     }
 }
