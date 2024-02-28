@@ -6,6 +6,10 @@
     height: auto
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /*************************
         HEADER
 *************************/
@@ -28,6 +32,10 @@ header {
 header i {
     padding-right: 8px;
     padding-top: 28.5px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 100%;
 }
 
 /*************************
@@ -99,6 +107,8 @@ main {
 /*************************
         RESPONSIVE
 *************************/
+    
+
 @media screen and (max-width:768px) {
     .table-elements {
         display:none;
@@ -114,7 +124,11 @@ main {
     .date {
         width: 27%;
     }
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
 }
+
 
 @media screen and (min-width: 992px) {
     aside {
@@ -140,6 +154,9 @@ main {
 
     .fa-gear {
         margin-left: 10px;
+    }
+    .offcanvas.offcanvas-end {
+        width: 40%;
     }
 }
 
