@@ -19,23 +19,25 @@ header {
     height: 70px;
 }
 
-.search-bar {
-    width: 100%;
+.ms-bg-gray {
     background-color: #e5e5e5;
 }
 
+.fa-magnifying-glass {
+    padding-left: 10px;
+}
+.search-bar {
+    background-color: #e5e5e5;
+    width: 100%;
+}
+
 .logo {
-    padding-top: 12px;
     width: 70px;
 }
 
 header i {
-    padding-top: 28.5px;
-    cursor: pointer;
-}
 
-header i:not(:last-child){
-    padding-right: 10px
+    cursor: pointer;
 }
 
 .offcanvas.offcanvas-end {
@@ -44,6 +46,12 @@ header i:not(:last-child){
 
 .ms-alarm {
     color: #ff8f00;
+}
+
+.form-control:focus {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    box-shadow: none;
 }
 
 /*************************
@@ -154,7 +162,6 @@ main i {
         width: 150px;
     }
     .logo {
-        padding-top: 22px;
         width: 150px;
     }
     .title {

@@ -17,26 +17,28 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
                 <div class="col-auto logo">
                     <img class="d-lg-none" src="./img/mobile-logo.png" alt="logo-mobile">
                     <img class="d-none d-lg-block" src="./img/logo.svg" alt="">
                 </div>
-                <div class="col search pt-3">
+                <div class="col">
+                    <div class="d-flex align-items-center rounded-1 ms-bg-gray">
+                        <i class="pt-0 fa-solid fa-magnifying-glass "></i>
                         <input class="form-control me-2 search-bar" type="search" placeholder="Prova a cercare: Lezioni di laravel" aria-label="Search">
+                    </div>
                 </div>
-                <div class="col-auto d-lg-flex gap-3">
-                    <span><i class="fa-solid fa-list d-none d-lg-block"></i></span>
-                    <span><i class="fa-solid fa-question d-none d-lg-block"></i></span>
-                    <span><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></span>
-                    <span><i class="fa-solid fa-bell ms-alarm " data-bs-toggle="dropdown" aria-expanded="false" ></i>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Profilo</a></li>
-                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                          </ul>
-                    </span>
+                <div class="col-auto d-lg-flex gap-4">
+                    <i class="fa-solid fa-list d-none d-lg-block"></i>
+                    <i class="fa-solid fa-question d-none d-lg-block"></i>
+                    <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+                    <i class="fa-solid fa-bell ms-alarm " data-bs-toggle="dropdown" aria-expanded="false" ></i>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
