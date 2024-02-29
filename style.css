@@ -122,6 +122,7 @@ main {
 main i {
     cursor: pointer;
 }
+
 /*************************
         RESPONSIVE
 *************************/
@@ -160,7 +161,11 @@ main i {
         min-height: 127px;
     }
     .home {
-        margin-left: 3px;
+        padding-left: 6px;
+    }
+
+    .ms-stats {
+        padding-right: 3px;
     }
     .fa-chart-simple {
         margin-right: 5px;
